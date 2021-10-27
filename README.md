@@ -34,12 +34,12 @@
     * Wyszukiwanie zamówienia
     * Aktualizacja danych zamówienia
     ### Pozafunkcjonalne
-    * Przejrzysty interfejs
+    * Przejrzysty interfejs 
     * Szybkie przełączanie między funkcjami
     * Krótki czas szkolenia
     * Funkcje widoczne w zależności od uprawnień 
     * Dane osobowe widoczne w zależności od uprawnień (Zgodność z RODO)
-1. # Schemat bazy danych
+1. # Schemat bazy danych 
     Schemat będzie na bieżąco uzupełniany w trakcie prac nad projektem.
 
 
