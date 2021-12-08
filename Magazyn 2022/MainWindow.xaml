@@ -8,8 +8,13 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="108,132,0,0" VerticalAlignment="Top"/>
-        <TextBlock Name ="Testy" HorizontalAlignment="Left" Height="105" Margin="301,98,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="347"/>
-        <TextBlock x:Name="Testy2" HorizontalAlignment="Left" Margin="197,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="90" Width="312"/>
+        <TextBlock Name ="Testy" HorizontalAlignment="Left" Height="348" Margin="255,41,0,0"
+                       TextWrapping="Wrap" VerticalAlignment="Top" Width="347"
+                       ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                       ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                       ScrollViewer.CanContentScroll="True"
+                   />
+        
 
     </Grid>
 </Window>

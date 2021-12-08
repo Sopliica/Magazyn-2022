@@ -26,7 +26,7 @@ namespace Magazyn_2022
             AUser Picia = new UserAdministracja("Picia", "Szczepionka", 1);
             AUser Huber = new UserAdministracja("H", "K", 15);
             Testy.Text += Picia.GetAllInfo();
-            Testy2.Text += Huber.GetAllInfo();
+            Testy.Text += Huber.GetAllInfo();
             
         }
     }

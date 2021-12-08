@@ -6,13 +6,16 @@ namespace Magazyn_2022
 {
     public abstract class AUser
     {
-        public string Id { get; set; }
+        private static int CurrentFreeId { get; set; } = 1;
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public int AccesLevel { get; set; }
-
-        public abstract int GetNewId();
+        public int GetNewId()
+        {
+            CurrentFreeId++;
+            return CurrentFreeId - 1;
+        }
         public abstract string GetAllInfo();
-        
     }
 }
