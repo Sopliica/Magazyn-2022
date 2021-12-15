@@ -22,7 +22,7 @@ namespace Magazyn_2022
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();  //matitubył
         }
     }
 }
