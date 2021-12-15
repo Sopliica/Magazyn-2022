@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Magazyn_2022.Controler.Factory_Method_Client;
+using Magazyn_2022.Model.Klienci;
 
 namespace Magazyn_2022
 {
@@ -27,6 +29,7 @@ namespace Magazyn_2022
             AUser Huber = new UserAdministracja("H", "K", 15);
             Testy.Text += Picia.GetAllInfo();
             Testy.Text += Huber.GetAllInfo();
+            IClient dupa = new CompanyClient();
             
         }
     }
