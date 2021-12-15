@@ -15,13 +15,14 @@ namespace Magazyn_2022.Model
         public string Street { get; set; }  
         public int StreetNumber { get; set; }
         public string AditionalStreetInfo { get; set; } 
-        
+        public int PhoneNumber { get; set; }    
+        public string Email { get; set; }
         private int GetNewId()
         {
             CurrentFreeId++;
             return CurrentFreeId - 1;
         }
-        AClient()
+        public AClient()
         {
             this.Id = GetNewId();
         }
