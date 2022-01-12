@@ -14,10 +14,8 @@
                        ScrollViewer.VerticalScrollBarVisibility="Visible" 
                        ScrollViewer.CanContentScroll="True"
                    />
-        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Height="31" Margin="53,200,0,0" TextWrapping="Wrap" Text="login" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Height="31" Margin="53,200,0,0" TextWrapping="Wrap" Text="login" VerticalAlignment="Top" Width="106" TextChanged="loginBox_TextChanged"/>
         <TextBox x:Name="passwordBox" HorizontalAlignment="Left" Height="27" Margin="57,273,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top" Width="108" />
-        <Button Content="loguj" HorizontalAlignment="Left" Margin="67,352,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-
-
+        <Button Content="login&#xD;&#xA;" HorizontalAlignment="Left" Margin="67,352,0,0" VerticalAlignment="Top" Click="Button_Click"/>
     </Grid>
 </Window>

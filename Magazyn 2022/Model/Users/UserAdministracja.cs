@@ -11,7 +11,7 @@ namespace Magazyn_2022.Model.Users
             this.Id = GetNewId();
             this.Name = Name;
             this.Surname = Surname;
-            this.AccesLevel = Lvl;
+            this.Access = Lvl;
 
         }
         /*public override int GetNewId()
@@ -24,7 +24,7 @@ namespace Magazyn_2022.Model.Users
             return this.Id + " \n" +
                     this.Name + " \n" +
                     this.Surname + " \n" +
-                    this.AccesLevel + " \n" +
+                    this.Access + " \n" +
                     " \n--------------\n";
         }
     }

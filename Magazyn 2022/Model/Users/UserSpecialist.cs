@@ -12,10 +12,12 @@ namespace Magazyn_2022.Model.Users
         {
             return "User Specialist Info";
         }
-        public UserSpecialist()
-        {
 
+        public UserSpecialist(string Name, string Surname, int AccesLevel)
+        {
+            
         }
+        
     }
    
 }

@@ -9,7 +9,7 @@ namespace Magazyn_2022.Controler.Factory_Method_User
 {
     public class UserAdministracjaCreator : UserCreator
     {
-        public override IUser CreateUser(string Name, string Surname, int AccesLevel)
+        public override AUser CreateUser(string Name, string Surname, int AccesLevel)
         {
             UserAdministracja User = new UserAdministracja(Name, Surname, AccesLevel);
             return User;
