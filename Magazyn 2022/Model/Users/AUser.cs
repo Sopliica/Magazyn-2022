@@ -12,11 +12,14 @@ namespace Magazyn_2022.Model.Users
         public string Name { get; set; }
         public string Surname { get; set; }
         public int AccesLevel { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
         public int GetNewId()
         {
             CurrentFreeId++;
             return CurrentFreeId - 1;
         }
+
         public abstract string GetAllInfo();
     }
 }
