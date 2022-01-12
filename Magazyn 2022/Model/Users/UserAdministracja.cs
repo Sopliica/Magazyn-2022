@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Magazyn_2022
+namespace Magazyn_2022.Model.Users
 {
     public class UserAdministracja : AUser
     {
@@ -12,6 +12,7 @@ namespace Magazyn_2022
             this.Name = Name;
             this.Surname = Surname;
             this.AccesLevel = Lvl;
+
         }
         /*public override int GetNewId()
         {
