@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Magazyn_2022.Model
+namespace Magazyn_2022.Model.Klienci
 {
     public abstract class AClient : IClient
     {

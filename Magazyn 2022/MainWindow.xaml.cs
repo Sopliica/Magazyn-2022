@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Magazyn_2022.Controler.Factory_Method_Client;
 using Magazyn_2022.Model.Klienci;
+using Magazyn_2022.Model.Users;
 
 namespace Magazyn_2022
 {
@@ -30,7 +31,12 @@ namespace Magazyn_2022
             Testy.Text += Picia.GetAllInfo();
             Testy.Text += Huber.GetAllInfo();
             IClient dupa = new CompanyClient();
-            
+
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string user = loginBox.Text;
+            string password = passwordBox.Text;
         }
     }
 }
