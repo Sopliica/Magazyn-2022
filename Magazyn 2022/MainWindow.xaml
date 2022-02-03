@@ -6,7 +6,20 @@
         xmlns:local="clr-namespace:Magazyn_2022"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid>
+        <Grid>
+            <Border Visibility="Visible" BorderThickness="2" BorderBrush="Blue" CornerRadius="8" Margin="30,30,30,30">
+                <StackPanel Margin="3">
+                    <Label  Height="25" Content="H e a d e r" Background="LightSkyBlue" />
+                    <Separator Height="5"/>
+                    <Grid>
+                        <!-- content -->
+                    </Grid>
+                </StackPanel>
+            </Border>
+        </Grid>
+
         <Button Content="Button" HorizontalAlignment="Left" Margin="108,132,0,0" VerticalAlignment="Top"/>
         <TextBlock Name ="Testy" HorizontalAlignment="Left" Height="348" Margin="255,41,0,0"
                        TextWrapping="Wrap" VerticalAlignment="Top" Width="347"
