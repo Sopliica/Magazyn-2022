@@ -34,7 +34,7 @@ namespace Magazyn_2022
             AUser Huber = new UserAdministracja("H", "K", 15);
             Testy.Text += Picia.GetAllInfo();
             Testy.Text += Huber.GetAllInfo();
-            IClient dupa = new CompanyClient();
+            IClient d = new CompanyClient();
             _loginControler = new LoginControler();
         }
         private void Button_Click(object sender, RoutedEventArgs e)

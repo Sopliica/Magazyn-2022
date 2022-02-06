@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using Magazyn
 using System.Threading.Tasks;
 using FluentAssertions;
 using NUnit.Framework;
-using Magazyn_2022.Controler.Login;
+using Magazyn_2022.Model.Users
+using Magazyn_2022.Controler.Factory_Method_User
+
 
 namespace Magazyn2022Testss.LoginControllerTests
 {
@@ -15,12 +18,17 @@ namespace Magazyn2022Testss.LoginControllerTests
     {
         public int xd;
         private LoginControler loginControler;
+        private UserSpecialistCreator c1;
+        private AUser u1;
+        private AUser u2;
+        private AUser u3;
 
         [SetUp]
         public void SetUp()
         {
             xd = 360;
             loginControler = new LoginControler();
+            
         }
 
         [Test] 
@@ -57,6 +65,11 @@ namespace Magazyn2022Testss.LoginControllerTests
             result.Should().NotBe(null);
             result.Login.Should().Be(correctLogin);
             result.Password.Should().Be(correctPassword);
+        }
+        [Test]
+        public void LogigSouldBeFirstTwoLettersFromNameAndSurname()
+        {
+            
         }
     }
 }
