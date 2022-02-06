@@ -27,7 +27,7 @@
     Historia paczki/zamówienia(zwrot/awizo itp.)| TAK|TAK|TAK
     Zarejestrowanie/aktualizacja paczki/zamówienia |TAK|NIE|NIE
 1. # Technologia Wykonania
-    Aplikacja zostanie wykonana wykonana przy pomocy technologi .NET Core. Za GUI odpowiadać będzie Windows Presentation Foundation (WPF). Bazą danych oprzemy o technologię MySQL. 
+    Aplikacja zostanie wykonana wykonana przy pomocy technologi .NET Core. Za GUI odpowiadać będzie Windows Presentation Foundation (WPF). Bazą danych oprzemy o technologię T-SQL. Aplikacja łączy się z bazą poprzez technologię Dapper. Testy zostały wykonane w oparciu o framework Nunit oraz FluentAsertion. Organizacja projektu jest oparta o wzorzec Model-View-Controll. 
 1. # Wymagania
     ### Funkcjonalne
     * Drukowanie etykiet
