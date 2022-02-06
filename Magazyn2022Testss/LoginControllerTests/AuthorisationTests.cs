@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NUnit.Framework;
 using Magazyn_2022.Model.Users
-using Magazyn_2022.Controler.Factory_Method_User
+using Magazyn_2022.Controler.Factory_Method_User;
+using Magazyn_2022.Controler.Login;
 
 
 namespace Magazyn2022Testss.LoginControllerTests
@@ -28,7 +29,8 @@ namespace Magazyn2022Testss.LoginControllerTests
         {
             xd = 360;
             loginControler = new LoginControler();
-            
+            c1 = new UserSpecialistCreator();
+            u1 = c1.CreateUser("Zenon", "Nigdy");
         }
 
         [Test] 
@@ -69,7 +71,9 @@ namespace Magazyn2022Testss.LoginControllerTests
         [Test]
         public void LogigSouldBeFirstTwoLettersFromNameAndSurname()
         {
-            
+            string correctLogin = "ZeNi";
+            var login = u1.Login;
+            login.Should().Be(correctLogin);
         }
     }
 }
