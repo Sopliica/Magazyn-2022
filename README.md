@@ -4,7 +4,7 @@
     Aplikacja **Magzayn 2022** jest to narzędzie do zarządzania magazynem.
     Specyfikacja ta jest stworzona przed pracą nad aplikacją opisuje nasze założenia i plany co do aplikacji.
     ### Konwencja Dokumentu
-    Brak
+    Brak.
     ### Sugestie co do treści
     Klient powinien przeczytać sekcje 1 oraz 2, aby upewnić się co do ogólnych założeń projektu.
     Programiści powinni przeczytać cały dokument, aby zrozumieć o co w projekcie chodzi oraz wiedzieć jakie technologie zostały użyte, ale powinni skupić się na sekcja 3, 4, 5.
